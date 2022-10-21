@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GEOGRAPHY QUIZ</string>
+    <string name="true_text">TRUE</string>
+    <string name="false_text">FALSE</string>
+    <string name="incorrect_toast">INCORRECT!!</string>
+    <string name="correct_toast">CORRECT!!</string>
+
+    <string name="question_brasil">RIO DE JANEIRO IS THE CAPITAL OF BRASIL</string>
+    <string name="question_croatia">ZAGREB IS THE CAPITAL OF CROATIA</string>
+    <string name="question_france">LYON IS THE CAPITAL OF FRANCE</string>
+    <string name="question_nigeria">ABUYA IS THE CAPITAL OF NIGERIA</string>
+    <string name="question_japan">KIOTO IS THE CAPITAL OF JAPAN</string>
+    <string name="question_uruguay">MONTEVIDEO IS THE CAPITAL OF URUGUAY</string>
+
+</resources>

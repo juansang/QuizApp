@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuizActivity">
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        tools:context=".QuizActivity">
+
+        <Button
+            android:id="@+id/true_button"
+            android:layout_width="115dp"
+            android:layout_height="59dp"
+            android:text="@string/true_text"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/false_button"
+            android:layout_width="115dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/false_text"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        tools:context=".QuizActivity">
+
+        <ImageButton
+            android:id="@+id/previous"
+            android:layout_width="82dp"
+            android:layout_height="59dp"
+            android:src="@drawable/ic_launcher_left3_foreground"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/next"
+            android:layout_width="85dp"
+            android:layout_height="61dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_launcher_right4_foreground"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
